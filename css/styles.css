@@ -383,7 +383,6 @@ body {
 .sec-footer {
     display: flex;
     align-items: baseline;
-    gap: 120px
 }
 .end {
     background-color: var(--logo-span);
@@ -392,6 +391,12 @@ body {
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
+}
+.footer-logo-wrapper{
+    margin-right: 120px;
+}
+.footer-social-wrapper{
+    margin-right: 80px;
 }
 .st-footer {
     color: var(--back-btn-cl);
